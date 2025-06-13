@@ -663,19 +663,3 @@ body.dark-theme .btn-descargar:hover {
   overflow-y: auto;
   max-height: calc(90vh - 120px);
 }
-@media (max-width: 768px) {
-  .tarjeta {
-    width: 100%; /* Ocupa el 100% en móviles */
-    padding: 10px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
